@@ -6,6 +6,8 @@ Parent pom for Java projects
 
 * 1.0.0 
     * Baseline
+* 1.1.0 
+    * Add maven-archiver (MANIFEST.MF)
 
 ## Plugin Build Configurations
 
