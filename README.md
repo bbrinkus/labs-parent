@@ -7,7 +7,9 @@ Parent pom for Java projects
 * 1.0.0 
     * Baseline
 * 1.1.0 
-    * Add maven-archiver (MANIFEST.MF)
+    * Add addiional archiver information (MANIFEST.MF)
+    * Deploy source and javadoc in default
+    * Use the nexus staging for the deployment
 
 ## Plugin Build Configurations
 
@@ -23,7 +25,7 @@ Generate source jar during the package.
         <execution>
             <id>attach-sources</id>
             <goals>
-                <goal>jar</goal>
+                <goal>jar-no-fork</goal>
             </goals>
         </execution>
     </executions>
