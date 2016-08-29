@@ -11,6 +11,7 @@
 
     <name>labs-parent</name>
     <description>Build dependencies</description>
+    <url>https://github.com/bbrinkus/labs-parent</url>
 
     <licenses>
         <license>
