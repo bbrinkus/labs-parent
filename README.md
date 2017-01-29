@@ -12,7 +12,7 @@ Parent pom for Java projects
         * maven-pmd-plugin
         * maven-site-plugin
 * 1.1.0 
-    * Add addiional archiver information (MANIFEST.MF)
+    * Add additional archiver information (MANIFEST.MF)
     * Deploy source and javadoc in default
     * Use the nexus staging for the deployment
 * 1.0.0 
